@@ -1,0 +1,28 @@
+.imagen,img{
+    position: static;
+    text-align: center;
+    border: 2px black solid;
+    background-position:center;
+    background-color:pink;
+}
+
+img{
+    width:400px;  
+}
+
+.text{
+    position:relative;
+    top: 100px;
+    background-color: blueviolet;
+}
+
+.contact{
+    position: fixed;
+    bottom: 0px; right: 0px;
+    cursor: pointer;
+    width: 120px;
+    background-color: pink;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
